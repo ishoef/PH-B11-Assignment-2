@@ -38,6 +38,7 @@ body{
 }
 
 .list-icon{
+    width: 3%;
     display: none;
 }
 
@@ -95,3 +96,33 @@ body{
 
 
 
+@media screen and (max-width: 576px) {
+    body{
+        background: #f2f2f2;
+    }
+    
+    .logo-pic{
+        width: 70%;
+    }
+    
+    .logo-text{
+        display: none;
+    }
+
+    .nav-bar{
+        display: none;
+    }
+
+    .head-btn{
+        display: none;
+    }
+
+    .list-icon{
+        width: 5%;
+        display: block;
+    }
+
+    .header{
+        border-bottom: 2px solid var(--primary-color);
+    }
+}
