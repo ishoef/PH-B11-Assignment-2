@@ -13,6 +13,7 @@
 :root{
     --primary-color: #FEA301;
     --primary-color-2: #01ACFD;
+    --content-width: 80%;
 }
 
 
@@ -21,6 +22,9 @@ body{
     height: 100vh;
     background: #fff;
 }
+
+
+/* ______________header___________ */
 
 .header{
     width: 100%;
@@ -81,7 +85,7 @@ body{
     color: #5D58EF;
 }
 
-.head-btn{
+.btn{
     background: var(--primary-color);
     padding: 8px 40px;
     border: none;
@@ -90,7 +94,61 @@ body{
     font-weight: 500;
 }
 
+/* ______________section-1-bannar______________ */
 
+
+.main-content{
+    width: 100%;
+    height: 100vh;
+}
+
+.sec-1-banner{
+    width: 100%;
+    height: fit-content;
+}
+
+.banner-content{
+    width: var(--content-width);
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.banner-left-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    flex-basis: 50%;
+}
+
+.banner-title{
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.spn-1{
+    color: var(--primary-color);
+}
+
+.spn-2{
+    color: var(--primary-color-2);
+}
+
+.para{
+    font-size: 15px;
+}
+
+.bannar-btn{
+    background: black;
+}
+
+.bannar-pic{
+    width: 100%;
+}
 
 
 
