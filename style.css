@@ -159,7 +159,7 @@ body{
 }
 
 .Curriculum-content{
-    width: var(--content-width);
+    width: 80%;
     height: fit-content;
     margin: 0 auto;
     padding: 50px 0;
@@ -260,14 +260,17 @@ body{
 
 @media screen and (max-width: 517px) {
     body{
-        background: #f2f2f2;
+        width: 100%;
+        height: 100vh;
+        background: url(./assets/bg.png);
+        background-size: cover;
     }
     
 
     /* _________Header-Responsive_______ */
 
     .head-content{
-        width: 80%;
+        width: 90%;
     }
 
     .logo-pic{
@@ -300,6 +303,7 @@ body{
 
 
     .banner-content{
+        width: 90%;
        flex-direction: column-reverse;
        gap: 30px;
        padding: 20px 0 30px 0;
@@ -314,6 +318,24 @@ body{
         text-align: center;
     }
 
+    .bannar-btn{
+        background: black;
+        padding: 8px 20px;
+        border-radius: 6px;
+    }
 
+
+    /* __________Curriculum-Responsive________ */
+
+    .Curriculum-content{
+        width: 90%;
+    }
+
+    .culum-boxes{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
 
 }
