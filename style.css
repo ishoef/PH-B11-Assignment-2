@@ -20,7 +20,8 @@
 body{
     width: 100%;
     height: 100vh;
-    background: #fff;
+    background: url(./assets/bg.png);
+    background-size: cover;
 }
 
 
@@ -29,7 +30,7 @@ body{
 .header{
     width: 100%;
     height: 100px;
-    background: #f5f5f5;
+    background: #fff;
 }
 
 .head-content{
@@ -105,6 +106,7 @@ body{
 .sec-1-banner{
     width: 100%;
     height: fit-content;
+    background: #fff;
 }
 
 .banner-content{
@@ -154,9 +156,6 @@ body{
 .sec-2-curriculum{
     width: 100%;
     height: fit-content;
-    background-image: url(./assets/bg.png);
-    background-position: cover;
-    background-repeat: no-repeat;
 }
 
 .Curriculum-content{
@@ -231,19 +230,45 @@ body{
     width: 40px;
 }
 
+.culum-btn-1{
+    color: #01ACFD;
+    background: none;
+}
+
+.culum-btn-2{
+    color: var(--primary-color);
+    background: none;
+}
+
+.culum-btn-3{
+    color: var(--primary-color-2);
+    background: none;
+}
+
+
+/* ___________Section-3-Stories____________  */
+
+.Sec-3-Stories{
+    width: 100%;
+    height: 600px;;
+}
 
 
 
 
 
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 517px) {
     body{
         background: #f2f2f2;
     }
     
 
     /* _________Header-Responsive_______ */
+
+    .head-content{
+        width: 80%;
+    }
 
     .logo-pic{
         width: 70%;
