@@ -565,7 +565,7 @@ marquee{
     }
 
     .list-icon{
-        width: 5%;
+        width: 7%;
         display: block;
     }
 
@@ -601,6 +601,20 @@ marquee{
 
 
     /* __________Curriculum-Responsive________ */
+
+
+    .marq{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    marquee{
+        font-size: 20px;
+        font-weight: 600;
+        color: var(--primary-color);
+        margin-top: 10px;
+    }
+    
 
     .Curriculum-content{
         width: 90%;
