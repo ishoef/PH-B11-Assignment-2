@@ -186,11 +186,6 @@ body{
     width: 100%;
 }
 
-.bannar-pic:hover{
-    transform: rotate(-2deg);
-    transform-origin: top;
-}
-
 /* ______________Section-2-Curriculum______________ */
 
 .sec-2-curriculum{
