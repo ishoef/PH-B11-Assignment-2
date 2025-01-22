@@ -8,6 +8,7 @@
     list-style: none;
     text-decoration: none;
     color: black;
+    transition: all 0.5s ease;
 }
 
 :root{
@@ -56,9 +57,18 @@ body{
     width: 40%;
 }
 
+.logo-pic:hover{
+    cursor: pointer;
+}
+
 .logo-text{
     font-size: 2em;
     margin-left: 15px;
+}
+
+.logo-text:hover{
+    cursor: pointer;
+    color: var(--primary-color-2);
 }
 
 .nav-items{
@@ -69,6 +79,11 @@ body{
 .item{
     font-weight: 600;
     font-size: 18px;
+}
+
+.item:hover{
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
 .item-1{
@@ -95,6 +110,11 @@ body{
     color: #fff;
     font-weight: 500;
     font-size: 17px;
+    cursor: pointer;
+}
+
+.head-btn:hover{
+    background: var(--primary-color-2);
 }
 
 /* ______________section-1-bannar______________ */
@@ -133,6 +153,11 @@ body{
     line-height: 1.2;
 }
 
+.banner-title:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
 .spn-1{
     color: var(--primary-color);
 }
@@ -152,8 +177,18 @@ body{
     font-weight: 600;
 }
 
+.bannar-btn:hover{
+    transform: scale(1.05);
+    background: var(--primary-color);
+}
+
 .bannar-pic{
     width: 100%;
+}
+
+.bannar-pic:hover{
+    transform: rotate(-2deg);
+    transform-origin: top;
 }
 
 /* ______________Section-2-Curriculum______________ */
@@ -195,6 +230,10 @@ body{
     text-align: center;
 }
 
+.culum-box:hover{
+    transform: translateY(-10px);
+}
+
 .box-1{
     border: 1px solid #DEF5FF;
     background: linear-gradient(to top, #ffffff, #ffffff, #ffffff, rgb(222, 245, 255));
@@ -221,6 +260,36 @@ body{
 
 }
 
+.culum-btn-1{
+    color: #01ACFD;
+    background: none;
+}
+
+.culum-btn-1:hover{
+    background: #01ACFD;
+    color: #fff;
+}
+
+.culum-btn-2{
+    color: var(--primary-color);
+    background: none;
+}
+
+.culum-btn-2:hover{
+    background: #FEA301;
+    color: #fff;
+}
+
+.culum-btn-3{
+    color: #8700FF;
+    background: none;
+}
+
+.culum-btn-3:hover{
+    background: #8700FF;
+    color: #fff;
+}
+
 .left, .right{
     width: 50px;
     height: 50px;
@@ -229,25 +298,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .arrow-icon{
     width: 40px;
-}
-
-.culum-btn-1{
-    color: #01ACFD;
-    background: none;
-}
-
-.culum-btn-2{
-    color: var(--primary-color);
-    background: none;
-}
-
-.culum-btn-3{
-    color: var(--primary-color-2);
-    background: none;
 }
 
 
@@ -297,6 +352,10 @@ body{
     border-radius: 10px;
 }
 
+.card:hover{
+    transform: scale(1.02);
+}
+
 .card-content{
     padding: 40px;
     position: relative;
@@ -304,6 +363,7 @@ body{
 
 .card-title{
     margin: 30px 0;
+    cursor: pointer;
 }
 
 .card-1-para{
@@ -311,6 +371,7 @@ body{
 }
 
 .card-para{
+    cursor: pointer;
     font-size: 15px;
 }
 
@@ -351,6 +412,10 @@ body{
     font-size: 18px;
 }
 
+.story-btn:hover{
+    background: var(--primary-color);
+}
+
 /* _____________Footer_____________ */
 
 
@@ -373,7 +438,9 @@ body{
 
 .ff-logo{
     width: 15%;
+    cursor: pointer;
 }
+
 
 .left-content, .midle-content, .left-content{
     flex-basis: 33%;
@@ -381,7 +448,9 @@ body{
 
 .foot-title{
     color: #fff;
+    cursor: pointer;
 }
+
 
 .logoandtext{
     display: flex;
@@ -394,7 +463,6 @@ body{
     color: #fff;
 }
 
-
 .middle-title{
     color: #fff;
     margin-bottom: 20px;
@@ -403,6 +471,11 @@ body{
 .foot-item{
     color: #fff;
     margin-bottom: 15px;
+}
+
+.foot-item:hover{
+    cursor: pointer;
+    font-weight: 600;
 }
 
 .right-contetn{
@@ -417,6 +490,10 @@ body{
 .right-title{
     color: #fff;
     margin-bottom: 30px;
+}
+
+.icon{
+    cursor: pointer;
 }
 
 
