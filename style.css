@@ -321,7 +321,6 @@ body{
     padding: 10px ;
     position: absolute;
     top: -20%;
-
 }
 
 .card-btn-1{
@@ -346,15 +345,11 @@ body{
     background: #FEA301;
 }
 
-
-
 .story-btn{
     background: #000;
     padding: 15px 60px;
     font-size: 18px;
 }
-
-
 
 /* _____________Footer_____________ */
 
@@ -411,12 +406,12 @@ body{
 }
 
 .right-contetn{
-    width: 150px;
+    width: 200px;
     height: 150px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: start;
 }
 
 .right-title{
@@ -503,6 +498,50 @@ body{
         display: grid;
         grid-template-columns: 1fr;
         gap: 30px;
+    }
+
+    .arrows{
+        display: none;
+    }
+
+    /* ____________Stories-responsive_________ */
+    .stories-content{
+        width: 90%;
+        gap: 25px;
+    }
+
+    .stories-title{
+        font-size: 25px;
+    }
+
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .card-1{
+       display: none;
+    }
+
+    .card-content{
+        padding: 30px 20px;
+        position: relative;
+    }
+
+    .card-btn{
+        position: absolute;
+        font-size: 10px;
+        padding: 6px;
+    }
+
+    .card-para{
+        font-size: 10px;
+    }
+
+    .story-btn{
+        padding: 10px 50px;
+        font-size: 16px;
     }
 
 
