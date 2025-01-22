@@ -125,6 +125,13 @@ body{
     height: fit-content;
 }
 
+marquee{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-top: 20px;
+}
+
 .sec-1-banner{
     width: 100%;
     height: fit-content;
@@ -296,6 +303,10 @@ body{
     cursor: pointer;
 }
 
+.left:hover, .right:hover{
+    background: var(--primary-color-2);
+}
+
 .arrow-icon{
     width: 40px;
 }
@@ -306,7 +317,7 @@ body{
 .Sec-3-Stories{
     width: 100%;
     height: fit-content;
-    background: linear-gradient(to top, rgba(254, 163, 1, 0.3), #fff);
+    background: linear-gradient(to top, rgba(254, 163, 1, 0.2), #fff);
 }
 
 .stories-content{
