@@ -125,13 +125,6 @@ body{
     height: fit-content;
 }
 
-marquee{
-    font-size: 20px;
-    font-weight: 600;
-    color: var(--primary-color);
-    margin-top: 20px;
-}
-
 .sec-1-banner{
     width: 100%;
     height: fit-content;
@@ -200,6 +193,18 @@ marquee{
     height: fit-content;
 }
 
+.marq{
+    width: 80%;
+    margin: 0 auto;
+}
+
+marquee{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-top: 20px;
+}
+
 .Curriculum-content{
     width: 80%;
     height: fit-content;
@@ -233,6 +238,7 @@ marquee{
 }
 
 .culum-box:hover{
+    cursor: pointer;
     transform: translateY(-10px);
 }
 
@@ -241,15 +247,28 @@ marquee{
     background: linear-gradient(to top, #ffffff, #ffffff, #ffffff, rgb(222, 245, 255));
 }
 
+.box-1:hover > .btn{
+    border: 1px solid #DEF5FF;
+}
+
 .box-2{
     border: 1px solid #FFF4DC;
     background: linear-gradient(to top, #ffffff, #ffffff, #ffffff, #FFF4DC);
+}
+
+.box-2:hover > .btn{
+    border: 1px solid #FFF4DC;
 }
 
 .box-3{
     border: 1px solid #F2E8FF;
     background: linear-gradient(to top, #ffffff, #ffffff, #ffffff, #F2E8FF);
 }
+
+.box-3:hover > .btn{
+    border: 1px solid #F2E8FF;
+}
+
 
 .arrows{
     width: 100%;
@@ -305,6 +324,15 @@ marquee{
 .left:hover, .right:hover{
     background: var(--primary-color-2);
 }
+
+.left:hover{
+    transform: translateX(-4px);
+}
+
+.right:hover{
+    transform: translateX(4px);
+}
+
 
 .arrow-icon{
     width: 40px;
