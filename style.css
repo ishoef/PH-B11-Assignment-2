@@ -564,9 +564,7 @@ marquee{
         border-bottom: 2px solid var(--primary-color);
     }
 
-
     /* ___________Banner-Responsive__________ */
-
 
     .banner-content{
         width: 90%;
@@ -590,9 +588,7 @@ marquee{
         border-radius: 6px;
     }
 
-
     /* __________Curriculum-Responsive________ */
-
 
     .marq{
         width: 90%;
@@ -606,7 +602,6 @@ marquee{
         margin-top: 10px;
     }
     
-
     .Curriculum-content{
         width: 90%;
     }
@@ -661,7 +656,6 @@ marquee{
         padding: 10px 50px;
         font-size: 16px;
     }
-
 
     /* _____________Footer_____________ */
 
